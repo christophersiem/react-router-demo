@@ -10,7 +10,7 @@ function App() {
             <h1>Super Router Demo Project</h1>
             <Routes>
                 <Route path={"/"} element={<Home/>}/>
-                <Route path={"/welcome/:id"} element={<WelcomePage/>}/>
+                <Route path={"/welcome/:name"} element={<WelcomePage/>}/>
             </Routes>
         </HashRouter>
 
